@@ -1,0 +1,151 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		text-align: center;
+		background-color: #333;
+	}
+
+	div#menu{
+		font-size: 20px;
+
+	}
+	div#menu ul{
+		list-style-type: none;
+		margin-top: 70px;
+	}
+	div#menu li{
+		display: inline-block;
+		margin: 15px;
+	}
+	div#menu ul li a{
+		text-decoration: none;
+		color: #fff;
+	}
+	div#menu ul li a:hover{
+		border-bottom: 5px solid #1abc9c;
+	}
+
+	#wrap{
+		margin-top: 250px;
+		font-size: 3em;
+		color: #1abc9c;
+		min-height: 766px;
+		background-color: #333;
+	}
+
+	.typed-cursor{
+		opacity: 1;
+		-webkit-animation: blink 0.7s infinite;
+		-moz-animation: blink 0.7s infinite;
+		animation: blink 0.7s infinite;
+	}
+	@keyframes blink{
+		0% { opacity: 1; color: #1abc9c;}
+		50% { opacity: 0; color: #1abc9c;}
+		100% { opacity: 1; color: #1abc9c;}
+	}
+
+	#project{
+		background-color: #1abc9c;
+		min-height: 766px;
+		position: relative;
+	}
+	#gambar{
+		margin-top: 75px;
+		border-radius: 100%;
+		opacity: 1;
+		filter: alpha(opacity=100); /* For IE8 and earlier */
+		background: rgba(0,0,0,.5);
+	}
+	#gambar:hover{
+		opacity:0.5;
+		filter: alpha(opacity=50); /* For IE8 and earlier */
+	}
+	.tekspro{
+		padding-top: 230px;
+		color:#493232;
+	}
+	#contact{
+		background-color: #333;
+		min-height: 766px;
+	}
+	.kontakmedsos a{
+		margin: 15px;
+	}
+	.is-loading{
+		overflow: hidden;
+	}
+	#surat{
+		color: #D1CA27;
+	}
+	#back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 9999;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    line-height: 50px;
+    background: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 100%;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #CE3225;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+#aboutsaya{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#aboutsaya, .mephoto{
+	border-radius: 100%;
+	background-size: 100px 100px;
+	margin-top: 75px;
+}
+
+#aboutsaya, .icontutup{
+	margin-top: 50px;
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+.icontutup:hover{
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+}
+#aboutsaya, .paraabout{
+	font-size: 1em;
+	color:#ffffff;
+	margin-top: 25px;
+	line-height: 1.6em;
+}
+#aboutsaya, .php{
+	color:#7482c2;
+}
+#aboutsaya, .css{
+	color:#c29e32;
+}
+#aboutsaya, .html{
+	color:#49ec46;
+}
+#aboutsaya, .js{
+	color:#CE534B;
+}
+#aboutsaya, .jquery{
+	color:#0769AD;
+}
